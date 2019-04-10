@@ -1,1 +1,56 @@
-font-family: 'Dancing Script', cursive;
+@media (min-width: 800px) {
+    .hamburger-menu {
+        display: none;
+    }
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.6rem;
+    min-height: 100%;
+    margin:0;
+}
+
+header {
+    color: white;
+    width: 100%;
+}
+
+header > * {
+    position: fixed;
+}
+
+.logo h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.4rem;
+}
+/*kolor do zmiany poźniej!!!*/
+.logo h2 .black{
+    color: black
+}
+
+.logo img {
+    height: 10vh;
+}
+
+header .booking {
+    top: 3vh;
+    left: 75vw;
+    /*z-index: 5;*/
+    font-size: 1.3rem;
+    color:white;
+}
+/*kolor do zmiany później!!!*/
+header .booking .black{
+    color:black;
+}
+
+
+.parallax1 {
+    background: url("../images/bar.jpeg");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 900px;
+}
