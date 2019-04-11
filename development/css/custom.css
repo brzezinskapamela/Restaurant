@@ -1,14 +1,18 @@
-@media (min-width: 800px) {
-    .hamburger-menu {
-        display: none;
-    }
-}
 
 body {
     font-family: "Open Sans", sans-serif;
     font-size: 1.6rem;
     min-height: 100%;
     margin:0;
+}
+.parallax1 {
+    background: url("../images/bar.jpeg");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
 }
 
 header {
@@ -33,24 +37,54 @@ header > * {
     height: 10vh;
 }
 
-header .booking {
+ .booking {
     top: 3vh;
-    left: 75vw;
-    /*z-index: 5;*/
-    font-size: 1.3rem;
+    left: 70vw;
+     font-weight: bold;
+    font-size: 2rem;
     color:white;
+     text-decoration: none;
 }
+
+.booking:hover{
+    color:darkgoldenrod;
+    transition: all .5s ease-out;
+}
+
 /*kolor do zmiany później!!!*/
-header .booking .black{
+ .booking .black{
     color:black;
 }
 
+.page-about{
+    max-width: 1080px;
+    margin: 0 auto;
+    display: block;
+}
 
-.parallax1 {
-    background: url("../images/bar.jpeg");
+.page-about img{
+    width:350px;
+    height: 350px;
+}
+
+
+
+.parallax2 {
+    background: url("../images/food.jpg");
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: cover;
     background-attachment: fixed;
-    height: 900px;
+    height: 350px;
+    width: 100%;
+}
+
+.parallax3 {
+    background: url("../images/party.jpeg");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 350px;
+    width: 100%;
 }
