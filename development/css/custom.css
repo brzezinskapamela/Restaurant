@@ -35,25 +35,24 @@ header > * {
 
 .logo img {
     height: 10vh;
+    z-index: 5;
+    position: absolute;
 }
 
- .booking {
-    top: 3vh;
-    left: 70vw;
-     font-weight: bold;
-    font-size: 2rem;
-    color:white;
-     text-decoration: none;
+.nav-list {
+    display: flex;
+
 }
 
-.booking:hover{
-    color:darkgoldenrod;
-    transition: all .5s ease-out;
+
+.nav-list-link {
+    padding: 20px;
+    text-decoration: none;
+    color: white;
 }
 
-/*kolor do zmiany później!!!*/
- .booking .black{
-    color:black;
+.icon{
+    width: 30px;
 }
 
 .page-about{
@@ -75,9 +74,42 @@ header > * {
     background-position: 50%;
     background-size: cover;
     background-attachment: fixed;
-    height: 350px;
+    height: 50vh;
     width: 100%;
 }
+
+.page-specials{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    height: 100vh;
+}
+
+
+.page-specialsImage{
+    position: absolute;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.page-specialsImage img{
+    backface-visibility: hidden;
+}
+
+.page-specialList{
+    position: absolute;
+    z-index: 2;
+    background: white;
+    padding: 7vh 7vw 10vh 23vw;
+}
+
+
+
+
+
+
+
+
+
 
 .parallax3 {
     background: url("../images/party.jpeg");
@@ -85,6 +117,28 @@ header > * {
     background-position: 50%;
     background-size: cover;
     background-attachment: fixed;
-    height: 350px;
+    height: 50vh;
     width: 100%;
+   padding-top: 10vh;
+}
+
+
+
+.wrapper{
+    width: 70%;
+    max-width: 1300px;
+    margin:0 auto;
+    display: flex;
+}
+
+.fb {
+    width: 60px;
+}
+
+.insta{
+    width:70px;
+}
+
+.trip{
+    width: 73px;
 }
