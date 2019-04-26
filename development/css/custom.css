@@ -15,55 +15,71 @@ body {
     width: 100%;
 }
 
-header {
-    color: white;
-    width: 100%;
-}
 
 header > * {
     position: fixed;
+    color:white;
 }
 
-.logo h2 {
+.logo {
     font-family: 'Dancing Script', cursive;
     font-size: 1.4rem;
 }
-/*kolor do zmiany poźniej!!!*/
-.logo h2 .black{
-    color: black
-}
 
-.logo img {
+.logoIcon {
     height: 10vh;
-    z-index: 5;
+    margin-top: 5vh;
+    z-index: 7;
     position: absolute;
 }
 
-.nav-list {
+.page-nav {
+    display: flex;
+}
+
+.nav-list{
     display: flex;
 
 }
 
-
-.nav-list-link {
-    padding: 20px;
-    text-decoration: none;
-    color: white;
+.nav-list-item {
+    display: inline-block;
+    position: relative;
+    justify-content: center;
+    align-items: center;
 }
 
-.icon{
-    width: 30px;
+
+.nav-list-link{
+    padding: 20px;
+    text-decoration: none;
+    color:white;
+}
+.nav-list-link:hover{
+    color:darkgoldenrod;
+}
+
+.nav-list-icon li{
+    width: 2vw;
+    display: inline-block;
 }
 
 .page-about{
     max-width: 1080px;
     margin: 0 auto;
     display: block;
+    padding-bottom: 10vh;
 }
 
+.page-about h3{
+    font-family: 'Dancing Script', cursive;
+    color: darkgoldenrod;
+    font-size: 3rem;
+    font-weight: bolder;
+}
 .page-about img{
-    width:350px;
-    height: 350px;
+    width:300px;
+    height: 300px;
 }
 
 
@@ -89,6 +105,7 @@ header > * {
     position: absolute;
     z-index: 1;
     overflow: hidden;
+    height: 100vh;
 }
 
 .page-specialsImage img{
@@ -99,16 +116,14 @@ header > * {
     position: absolute;
     z-index: 2;
     background: white;
-    padding: 7vh 7vw 10vh 23vw;
+    padding: 7vh 7vw 10vh 15vw;
+    font-family: 'Dancing Script', cursive;
 }
 
-
-
-
-
-
-
-
+.gold{
+    color:darkgoldenrod;
+    font-size: 3rem;
+}
 
 
 .parallax3 {
@@ -119,26 +134,56 @@ header > * {
     background-attachment: fixed;
     height: 50vh;
     width: 100%;
-   padding-top: 10vh;
+    margin-top: 10vh;
 }
 
+footer{
+    background: #333333;
+    color:white;
+    margin-top: 10vh;
+}
 
+footer:hover{
+    color:darkgoldenrod;
+}
+footer>div{
+    width: 50%;
+}
 
 .wrapper{
     width: 70%;
     max-width: 1300px;
     margin:0 auto;
     display: flex;
+    padding: 10vh;
+}
+.wrapper img{
+    width: 13vh;
 }
 
-.fb {
-    width: 60px;
+.adress{
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5rem;
+    font-weight: bolder;
+
 }
 
+.social-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:0 3vw;
+}
+
+.fb{
+    width: 4vh;
+}
 .insta{
-    width:70px;
+    width:5vh;
 }
-
 .trip{
-    width: 73px;
+    width:6vh;
+}
+.map{
+    padding-left: 15vh;
 }
