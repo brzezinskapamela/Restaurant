@@ -1,0 +1,65 @@
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.6rem;
+    min-height: 100%;
+    margin:0;
+}
+.parallaxMenu {
+    background: url("../images/menu.jpeg");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 50vh;
+    width: 100%;
+}
+
+
+header > * {
+    position: fixed;
+    color:white;
+}
+
+.logo {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.4rem;
+}
+
+.logoIcon {
+    height: 10vh;
+    margin-top: 5vh;
+    z-index: 7;
+    position: absolute;
+}
+
+.page-nav {
+    display: flex;
+}
+
+.nav-list{
+    display: flex;
+
+}
+
+.nav-list-item {
+    display: inline-block;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.nav-list-link{
+    padding: 20px;
+    text-decoration: none;
+    color:white;
+}
+.nav-list-link:hover{
+    color:darkgoldenrod;
+}
+
+.nav-list-icon li{
+    width: 2vw;
+    display: inline-block;
+}

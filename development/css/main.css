@@ -69,10 +69,10 @@ header > * {
     margin: 0 auto;
     display: block;
     padding-bottom: 10vh;
+    font-family: 'Dancing Script', cursive;
 }
 
 .page-about h3{
-    font-family: 'Dancing Script', cursive;
     color: darkgoldenrod;
     font-size: 3rem;
     font-weight: bolder;
