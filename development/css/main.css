@@ -5,6 +5,9 @@ body {
     min-height: 100%;
     margin:0;
 }
+
+/*header*/
+
 .parallax1 {
     background: url("../images/bar.jpeg");
     background-repeat: no-repeat;
@@ -35,34 +38,34 @@ header > * {
 
 .page-nav {
     display: flex;
+    width: 100%;
+    justify-content: space-between;
 }
 
 .nav-list{
     display: flex;
-
 }
-
-.nav-list-item {
-    display: inline-block;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-}
-
 
 .nav-list-link{
     padding: 20px;
     text-decoration: none;
     color:white;
 }
+
 .nav-list-link:hover{
     color:darkgoldenrod;
+}
+
+.nav-list-icon{
+    display: flex;
+    justify-content: space-between;
 }
 
 .nav-list-icon li{
     width: 2vw;
     display: inline-block;
 }
+/*page-about*/
 
 .page-about{
     max-width: 1080px;
@@ -82,7 +85,7 @@ header > * {
     height: 300px;
 }
 
-
+/*parallax2*/
 
 .parallax2 {
     background: url("../images/food.jpg");
@@ -93,6 +96,9 @@ header > * {
     height: 50vh;
     width: 100%;
 }
+
+
+/*page-specials*/
 
 .page-specials{
     margin-top: 10vh;
@@ -124,7 +130,30 @@ header > * {
     color:darkgoldenrod;
     font-size: 3rem;
 }
+/*page-info*/
 
+.page-info{
+    max-width: 1080px;
+    margin: 0 auto;
+    display: block;
+    padding-bottom: 10vh;
+    font-family: 'Dancing Script', cursive;
+}
+
+.page-info h3{
+    color: darkgoldenrod;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.page-info img{
+    width:300px;
+    height: 300px;
+}
+
+
+
+
+/*parallax3*/
 
 .parallax3 {
     background: url("../images/party.jpeg");
@@ -136,6 +165,9 @@ header > * {
     width: 100%;
     margin-top: 10vh;
 }
+
+
+/*footer*/
 
 footer{
     background: #333333;
@@ -165,7 +197,11 @@ footer>div{
     font-family: 'Dancing Script', cursive;
     font-size: 1.5rem;
     font-weight: bolder;
+}
 
+.mail{
+    text-decoration: none;
+    color:white;
 }
 
 .social-media{
