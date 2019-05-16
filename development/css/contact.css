@@ -35,28 +35,27 @@ header > * {
 
 .page-nav {
     display: flex;
+    width: 100%;
+    justify-content: space-between;
 }
 
 .nav-list{
     display: flex;
-
 }
-
-.nav-list-item {
-    display: inline-block;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-}
-
 
 .nav-list-link{
     padding: 20px;
     text-decoration: none;
     color:white;
 }
+
 .nav-list-link:hover{
     color:darkgoldenrod;
+}
+
+.nav-list-icon{
+    display: flex;
+    justify-content: space-between;
 }
 
 .nav-list-icon li{
