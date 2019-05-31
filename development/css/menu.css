@@ -26,10 +26,10 @@ header > * {
     font-size: 1.4rem;
 }
 
-.logoIcon {
-    height: 10vh;
+.logoIcon{
+    width: 5vh;
     margin-top: 5vh;
-    z-index: 7;
+    z-index: 10;
     position: absolute;
 }
 

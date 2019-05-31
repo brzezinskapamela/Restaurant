@@ -82,25 +82,18 @@ header > * {
     font-weight: bolder;
 }
 .page-about img{
-    width:500px;
-    height: 500px;
+    width:400px;
+    height: 400px;
 }
 
 .top{
     display: flex;
     flex-direction: row-reverse;
+    padding: 6.5vh 0 0 10vw;
 }
 
-.top p{
-    padding: 5vh 0 0 10vw;
-    font-size: 1.8rem;
-}
 .bottom{
     display: flex;
-}
-.bottom p{
-    padding: 10vh 10vw 0 5vw;
-    font-size: 1.8rem;
 }
 /*parallax2*/
 
@@ -163,8 +156,8 @@ header > * {
     font-weight: bolder;
 }
 .page-info img{
-    width:500px;
-    height: 500px;
+    width:400px;
+    height: 400px;
 }
 
 

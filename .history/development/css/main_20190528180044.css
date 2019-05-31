@@ -82,8 +82,8 @@ header > * {
     font-weight: bolder;
 }
 .page-about img{
-    width:500px;
-    height: 500px;
+    width:400px;
+    height: 400px;
 }
 
 .top{
@@ -92,15 +92,13 @@ header > * {
 }
 
 .top p{
-    padding: 5vh 0 0 10vw;
-    font-size: 1.8rem;
+    padding: 6.5vh 0 0 10vw;
 }
 .bottom{
     display: flex;
 }
 .bottom p{
-    padding: 10vh 10vw 0 5vw;
-    font-size: 1.8rem;
+    padding: 15.5vh 10vw 0 6vw;
 }
 /*parallax2*/
 
@@ -163,8 +161,8 @@ header > * {
     font-weight: bolder;
 }
 .page-info img{
-    width:500px;
-    height: 500px;
+    width:400px;
+    height: 400px;
 }
 
 
